@@ -10,7 +10,7 @@ export default function AllPostsPage(props){
         <Fragment>
             <Head>
                 <title>All Posts</title>
-                <description>Browse all the posts and lets connect</description>
+                <meta  name="description" content="A list of all the blog posts on this site." />
             </Head>
             <AllPosts posts={props.posts}/>
         </Fragment>

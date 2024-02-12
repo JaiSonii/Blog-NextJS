@@ -9,7 +9,7 @@ export default function PostPage(props){
         <Fragment>
         <Head>
             <title>{props.post.title}</title>
-            <description>{props.post.excerpt}</description>
+            <meta  name="description" content={`${props.post.excerpt}`} />
         </Head>
         <PostContent post={props.post}/>
         </Fragment>
